@@ -4,14 +4,17 @@ Isolated repro steps for https://github.com/emscripten-core/emscripten/issues/19
 ## Version of emscripten/emsdk
 Version of emscripten/emsdk:
 emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.33 (c1927f2)
+
 clang version 17.0.0 (https://github.com/llvm/llvm-project 671eeece457f6a5da7489f7b48f7afae55327b8b)
+
 Target: wasm32-unknown-emscripten
+
 Thread model: posix
 
 ## Operating System
-Windows 10 Pro
-Version 		: 21H2
-OS Build 		: 19044.2486
+- Windows 10 Pro
+- Version 		: 21H2
+- OS Build 		: 19044.2486
 
 ## Steps :
 - Open `CMD`
